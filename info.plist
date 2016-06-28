@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contactEmailRot13</key>
+	<string>qhfgva@qhfgvajvyfba.pbz</string>
+	<key>contactName</key>
+	<string>Dustin Wilson</string>
+	<key>description</key>
+	<string>Simple Bundle to run Bash Task Runner's runner command within TextMate projects.</string>
+	<key>name</key>
+	<string>Bash Task Runner</string>
+	<key>uuid</key>
+	<string>8157C77E-4208-4AA8-B87A-22CBA69323BC</string>
+</dict>
+</plist>
