@@ -3,7 +3,7 @@
 
 # Bash Task Runner Bundle for TextMate #
 
-This is a rudimentary bundle for using [Bash Task Runner][a] within TextMate. When you have a project open in TextMate that has `runnerfile.sh` in its root it allows you to run the its default task or select from a list of available tasks and run that. These commands are available from the `Bundles -> Bash Task Runner` menu or by simply pressing `^⇧R`.
+This is a rudimentary bundle for using [Bash Task Runner][a] within TextMate. When you have a project open in TextMate that has `runnerfile.sh` in its root it allows you to select from a list of available tasks and run the selection. This is available from the `Bundles -> Bash Task Runner` menu or by simply pressing `^⇧R`.
 
 ## Installation <sup id="a1">[1](#f1)</sup> ##
 
