@@ -41,7 +41,7 @@ mv dustinwilson-bash-task-runner.tmbundle* "Bash Task Runner.tmbundle"
 osascript -e 'tell app "TextMate" to reload bundles'
 ```
 
-## Download ##
+## Manual Installation ##
 
 If you would like to avoid the command line altogether, you may download the bundle and install it:
 
