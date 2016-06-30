@@ -49,7 +49,14 @@ while read -r line; do
 done &lt;&lt;&lt; "$(sort &lt;&lt;&lt; "$filesList")"
 
 # Show a dialog and parse the output to a string to get the task name.
-./node_modules/.bin/runner --directory="${TM_PROJECT_DIRECTORY}" $($DIALOG -cm -p "${dialogPlist}); }" "${TM_SUPPORT_PATH}/nibs/RequestItem.nib" | xmllint --xpath 'string(/plist/dict/dict/array/string)' -)
+task=$($DIALOG -cm -p "${dialogPlist}); }" "${TM_SUPPORT_PATH}/nibs/RequestItem.nib" | xmllint --xpath 'string(/plist/dict/dict/array/string)' -)
+
+# If the task is empty cancel was pressed, so exit.
+if [ "x$task" = "x" ]; then
+    exit 206
+fi
+
+./node_modules/.bin/runner --directory="${TM_PROJECT_DIRECTORY}" $task
 exit 206
 </string>
 	<key>input</key>
