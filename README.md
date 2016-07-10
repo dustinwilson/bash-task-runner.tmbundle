@@ -23,8 +23,8 @@ The quickest way to install this bundle is via the command line. If you have Git
 ### Install with Git ###
 
 ```bash
-mkdir -p "~/Library/Application Support/TextMate/Bundles"
-cd "~/Library/Application Support/TextMate/Bundles"
+mkdir -p "~/Library/Application Support/Avian/Bundles"
+cd "~/Library/Application Support/Avian/Bundles"
 git clone git://github.com/dustinwilson/bash-task-runner.tmbundle.git "Bash Task Runner.tmbundle"
 osascript -e 'tell app "TextMate" to reload bundles'
 ```
@@ -32,8 +32,8 @@ osascript -e 'tell app "TextMate" to reload bundles'
 ### Install without Git ###
 
 ```bash
-mkdir -p "~/Library/Application Support/TextMate/Bundles"
-cd "~/Library/Application Support/TextMate/Bundles"
+mkdir -p "~/Library/Application Support/Avian/Bundles"
+cd "~/Library/Application Support/Avian/Bundles"
 wget http://github.com/dustinwilson/bash-task-runner.tmbundle/tarball/master
 tar zxf dustinwilson-bash-task-runner.tmbundle*.tar.gz
 rm dustinwilson-bash-task-runner.tmbundle*.tar.gz
